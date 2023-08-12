@@ -158,13 +158,13 @@
 				  <div class="right-side">
 				    <div class="topic-text">Send me a message</div>
 				    <p>This is one of the most easiest way to find a mentor like me for your kids, you can send me message from here. It's my pleasure to help you.</p>
-				<form action="#" id="form">
+				<form action="form.php" id="form" method="post">
 				  <div class="input-box">
-					  <input type="text" placeholder="Enter your name" id="name" required>
+					  <input type="text" placeholder="Enter your name" id="name" name="name"required>
             <div id="nameError" class="error-message"></div>
 				  </div>
           <div class="input-box">
-            <input type="text" placeholder="Enter your email" id="email" required>
+            <input type="text" placeholder="Enter your email" id="email" name="email" required>
             <div id="emailError" class="error-message"></div>
 				  </div>  
           <button type="submit" >Send</button>
